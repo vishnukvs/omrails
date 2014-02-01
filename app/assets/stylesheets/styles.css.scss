@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'bootstrap';
 body{
 	padding-top: 60px;
@@ -6,4 +7,20 @@ body{
 .footer{
 	padding-top: 50px;
 	
+=======
+$btnPrimaryBackground:green;
+@import 'bootstrap';
+
+body{
+	padding-top:60px;
+}
+
+@import 'bootstrap-responsive';
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+>>>>>>> 76b1720ed8a4f0e6c0544ccdc67d7a0ac6ee10f5
 }

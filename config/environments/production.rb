@@ -64,4 +64,9 @@ Omrails::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+<<<<<<< HEAD
+=======
+  # In production, :host should be set to the actual host of your application.
+   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+>>>>>>> 76b1720ed8a4f0e6c0544ccdc67d7a0ac6ee10f5
 end
