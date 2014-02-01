@@ -1,8 +1,7 @@
 Omrails::Application.routes.draw do
-<<<<<<< HEAD
   get  'about'=>'Page#about'
   root :to => 'Page#home'
-=======
+
   resources :pins
 
 
@@ -13,7 +12,7 @@ Omrails::Application.routes.draw do
   root :to => 'Pages#home'
 
 
->>>>>>> 76b1720ed8a4f0e6c0544ccdc67d7a0ac6ee10f5
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
